@@ -1,0 +1,27 @@
+﻿<Window x:Class="HCIProject1.WindowOpen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HCIProject1"
+       
+        mc:Ignorable="d"
+        Title="WindowOpen" Height="450" Width="800" Background="Black" ResizeMode="NoResize">
+    <Grid>
+        <Label x:Name="LabelContent" Content="Details" HorizontalAlignment="Left" Margin="319.14,10,0,0" VerticalAlignment="Top" Foreground="#D4AC0D" Height="50" Width="199" FontSize="25"/>
+        <Label x:Name="LabelDeckClas" Content="Class:" HorizontalAlignment="Left" Margin="43,120,0,0" VerticalAlignment="Top" Foreground="#D4AC0D" />
+        <Label x:Name="LabelAverageMana" Content="Average Mana:" HorizontalAlignment="Left" Margin="43,151,0,0" VerticalAlignment="Top" Foreground="#D4AC0D" />
+        <Label x:Name="LabelDate" Content="Date:" HorizontalAlignment="Left" Margin="43,183,0,0" VerticalAlignment="Top" Foreground="#D4AC0D" />
+        <Label x:Name="LabelName" Content="Deck Name:" HorizontalAlignment="Left" Margin="43,94,0,0" VerticalAlignment="Top" Foreground="#D4AC0D" />
+        <Label x:Name="LabelAbouth" Content="Abouth:" HorizontalAlignment="Left" Margin="43,215,0,0" VerticalAlignment="Top" Foreground="#D4AC0D" />
+        <Image x:Name="Image" HorizontalAlignment="Left" Height="262" Margin="457,94,0,0" VerticalAlignment="Top" Width="259"/>
+        <Button Content="Close" HorizontalAlignment="Left" Margin="43,341,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click" Foreground="#D4AC0D" Background="Transparent" BorderBrush="#D4AC0D" />
+
+        <Label x:Name="LabelDeckName1" Content="Name" HorizontalAlignment="Left" Margin="192,89,0,0" VerticalAlignment="Top" Foreground="#D4AC0D" />
+        <Label x:Name="LabelDeckClas1" Content="Class" HorizontalAlignment="Left" Margin="192,120,0,0" VerticalAlignment="Top" Foreground="#D4AC0D" />
+        <Label x:Name="LabelAverageMana1" Content="Mana" HorizontalAlignment="Left" Margin="192,151,0,0" VerticalAlignment="Top" Foreground="#D4AC0D" />
+        <Label x:Name="LabelDate1" Content="Date" HorizontalAlignment="Left" Margin="192,184,0,0" VerticalAlignment="Top" Foreground="#D4AC0D"/>
+        <Label x:Name="LabelAbouth1"  Content="Abouth" HorizontalAlignment="Left" Margin="192,216,0,0" VerticalAlignment="Top" Height="140" Width="232" Foreground="#D4AC0D" />
+
+    </Grid>
+</Window>
